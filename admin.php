@@ -1,4 +1,3 @@
-
 <html>
     <head>
         <title>Library</title>
@@ -25,44 +24,49 @@
                     </ul>
                 </div>   
                 <div>
-                   
-                    <div class="login-container">                      
-                        <form action=" " method="POST">
-                            <input type="text" placeholder="Username" name="username">
-                            <input type="text" placeholder="Password" name="psw">
-                            <button type="submit">Login</button>                         
-                        </form>
-                        
-                    </div> 
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="active" href="#">log out</a></li>
+
+                    </ul>     
                 </div>
+
             </div>
+
         </nav>
 
         <div class="home">
-
             <div class="landing-text">
-                <h1>Windsor Library</h1> 
+                <h1>Welcome Admin!</h1> 
+                     <div class="row">
 
+
+                    <div class="col-sm-6 text-center">
+                        <h2> Member </h2>
+
+                        <button type= "button" class="btn btn-outline-secondary btn-lg"  style="width:30%; margin: 15px">Search member</button>
+                        <button type= "button" class="btn btn-outline-secondary btn-lg"  style="width:30%; margin: 15px">Delete member</button>
+                        <button type= "button"  class="btn btn-outline-secondary btn-lg"  style="width:30%; margin: 15px">register member</button>
+                        <button type= "button"  class="btn btn-outline-secondary btn-lg"  style="width:30%; margin: 15px">View member</button>
+                        <button type= "button"  class="btn btn-outline-secondary btn-lg"  style="width:30%; margin: 15px">Update member</button>
+
+                    </div>
+                    <div class="col-sm-6 text-center">
+                        <h2> Book </h2>
+                        <button class="btn btn-outline-secondary btn-lg" style="width:30%; margin: 15px">Update book</button>
+                        <button class="btn btn-outline-secondary btn-lg"  style="width:30%; margin: 15px">Add book</button>
+                        <button class="btn btn-outline-secondary btn-lg" style="width:30%; margin: 15px">remove book</button>
+                        <button class="btn btn-outline-secondary btn-lg" style="width:30%; margin: 15px">Return book</button>
+                        <button class="btn btn-outline-secondary btn-lg" style="width:30%; margin: 15px">View book</button>
+
+                        
+                    </div>                  
+                </div>
             </div>
         </div>
 
-        <div class="padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <img src="searchbook.jpeg">
 
+       
 
-                    </div> 
-                    <div class="col-sm-6 text-center">
-                        <h3>Quick Search</h3>
-                        <br>
-                        <input type="text" placeholder="Search book title here"> 
-                    </div>
-                </div>  
-            </div>
-        </div> 
-        <div id="fixed"></div>  
 
         <footer class="container-fluid text-center">
             <div class="row">
