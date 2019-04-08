@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 
 <html>
     <head>
@@ -12,7 +13,7 @@
 
     <body>
 
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-default" role="navigation">
       
             <div class="container-fluid">
                 <div class="dropdown">
@@ -21,12 +22,12 @@
                     <ul class="dropdown-menu">
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Homepage</a></li>
+                        <li><a href="index.php">Homepage</a></li>
                     </ul>
                 </div>   
                 <div>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="" href="signUp.php">Sign Up</a></li>
+                        <li><a class="" href="#">Sign Up</a></li>
                         <li><a href="#">Log In</a></li>    
                     </ul>     
                 </div>
@@ -34,30 +35,54 @@
             </div>
    
     </nav>
-
-    <div class="home">
+        
+         <div class="home">
         <div class="landing-text">
-            <h1>Windsor Library</h1> 
-        </div>
-    </div>
+            
+        
+    <center> <h1> Become a member today! </h1> </center>
+        
+       <div class="paddingForm">     
+    <form action="" method="post">
+  <div class="form-group">
+    <label for="firstname">First Name:</label>
+    <input type="text" class="form-control" name="firstname">
+  </div>
+  <div class="form-group">
+    <label for="lastname">Last Name:</label>
+    <input type="text" class="form-control" name="lastname">
+  </div>
+        <div class="form-group">
+    <label for="age">Age:</label>
+    <input type="text" class="form-control" name="Age">
+  </div>
+        <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" class="form-control" name="email">
+  </div>
+         <div class="form-group">
+    <label for="address">Street Address:</label>
+    <input type="text" class="form-control" name="address">
+  </div>
+          <div class="form-group">
+    <label for="postcode">Post Code:</label>
+    <input type="text" class="form-control" name="postcode">
+  </div>
+            <div class="form-group">
+    <label for="password">Password:</label>
+    <input type="password" class="form-control" name="password">
+  </div>
+  
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
 
-        <div class="padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <img src="searchbook.jpeg">
-                    
-                      
-                    </div> 
-                    <div class="col-sm-6 text-center">
-                        <h3>Quick Search</h3>
-                        <br>
-                        <input type="text" placeholder="Search book title here"> 
-                    </div>
-                </div>  
-            </div>
-            </div> 
-        <div id="fixed"></div>  
+       </div>                
+          
+        </div>
+    </div>  
+         
+          
+          
         
         <footer class="container-fluid text-center">
             <div class="row">
