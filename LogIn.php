@@ -13,7 +13,7 @@
     <body>
 
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-
+      
             <div class="container-fluid">
                 <div class="dropdown">
                     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Main Menu
@@ -25,46 +25,36 @@
                     </ul>
                 </div>   
                 <div>
-                 
-                    <div class="login-container">                      
-                        <form action=" " method="POST">
-                            <input type="text" placeholder="Username" name="username">
-                            <input type="text" placeholder="Password" name="psw">
-                            <button type="submit">Login</button>                         
-                        </form>
-                        
-                    </div> 
-
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Update account</a></li> 
+                        <li><a href="#">Order history</a></li> 
+                        <li><a href="#">Log out</a></li>    
+                    </ul>     
                 </div>
+
             </div>
-        </nav>
+   
+    </nav>
 
-    
-
-    <div class="home">
+    <div id="home">
         <div class="landing-text">
-            <h1>Windsor Library</h1> 
-
-        </div>
+            <h1>Welcome back</h1> 
+         </div>
+    </div>
 
         <div class="padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <img src="searchbook.jpeg">
-
-
-                    </div> 
+        
                     <div class="col-sm-6 text-center">
                         <h3>Quick Search</h3>
                         <br>
                         <input type="text" placeholder="Search book title here"> 
                     </div>
                 </div>  
-            </div>
-        </div> 
+           
         <div id="fixed"></div>  
-
+        
+       
+        
         <footer class="container-fluid text-center">
             <div class="row">
                 <div class="col-sm-4">
@@ -80,12 +70,10 @@
                 </div>
                 <div class="col-sm-4">
                     <img src="Windsor.png" class="icon">  
-                </div>
-
-
-
-
+                </div>    
             </div>
+            
         </footer>
-    </body>
+</body>
 </html>
+

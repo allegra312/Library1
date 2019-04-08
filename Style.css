@@ -1,3 +1,11 @@
+.paddingForm {
+   padding-top:40px;
+   padding-left: 200px;
+   padding-right: 200px;
+   padding-bottom: 40px;
+}
+
+
 html, body {
     height: 100%;
     width: 100%;
@@ -15,16 +23,20 @@ html, body {
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
     color: black;
 }
+
 .login-container {
     float: right;
 }
 
 .home{
+    background: url(windsor.jpg) no-repeat center center fixed;
+
     display: table;
     height: 100%;
     position: relative;
     width: 100%;
     background-size: cover;
+    
 }
 .home:before {
     content: '';
@@ -76,4 +88,9 @@ footer {
 
 .icon{
     max-width: 200px;
+}
+
+ #signUp{
+    background: url(windsor.jpg) no-repeat center center fixed;
+ 
 }
