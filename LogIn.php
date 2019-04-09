@@ -36,7 +36,7 @@
    
     </nav>
 
-    <div id="home">
+    <div class="home">
         <div class="landing-text">
             <h1>Welcome back</h1> 
          </div>

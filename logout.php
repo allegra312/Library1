@@ -37,7 +37,7 @@ session_destroy();
 
             </div>
 
-
+        </nav>
             <div class="home">
                 <div class="landing-text">
                     <h1>you are now logged out!</h1> 

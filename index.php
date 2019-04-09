@@ -1,4 +1,3 @@
-
 <html>
     <head>
         <title>Library</title>
@@ -11,7 +10,6 @@
     </head>
 
     <body>
-
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 
             <div class="container-fluid">
@@ -24,9 +22,7 @@
                         <li><a href="#">Homepage</a></li>
                     </ul>
                 </div>   
-                <div>
-                 
-                    <div class="login-container">                      
+                <div class="login-container">                      
                         <form action=" " method="POST">
                             <input type="text" placeholder="Username" name="username">
                             <input type="text" placeholder="Password" name="psw">
@@ -34,19 +30,18 @@
                         </form>
                         
                     </div> 
-
-                </div>
             </div>
         </nav>
+                   
 
     
 
     <div class="home">
-        <div class="landing-text">
-            <h1>Windsor Library</h1> 
-
+            <div class="landing-text">
+                <h1>Windsor Library</h1> 
         </div>
-
+  </div>
+        
         <div class="padding">
             <div class="container">
                 <div class="row">
@@ -63,7 +58,7 @@
                 </div>  
             </div>
         </div> 
-        <div id="fixed"></div>  
+       
 
         <footer class="container-fluid text-center">
             <div class="row">
@@ -81,9 +76,6 @@
                 <div class="col-sm-4">
                     <img src="Windsor.png" class="icon">  
                 </div>
-
-
-
 
             </div>
         </footer>
