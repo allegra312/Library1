@@ -1,3 +1,9 @@
+.paddingForm {
+   padding-top:40px;
+   padding-left: 200px;
+   padding-right: 200px;
+   padding-bottom: 40px;
+}
 
 
 html, body {
@@ -25,9 +31,10 @@ html, body {
 .home{
 
     display: table;
-    background-size: 100% 100%; 
+    height: 100%;
     position: relative;
-   
+    width: 100%;
+    background-size: cover;
     
 }
 .home:before {
@@ -35,9 +42,9 @@ html, body {
     position: absolute; 
     opacity: 0.4;
     background: url(windsor.jpg) no-repeat 0 50%; 
-    
+    width: 100%;
+    height: 100%;
     z-index: -1;
-   
 
 }
 
@@ -82,3 +89,7 @@ footer {
     max-width: 200px;
 }
 
+ #signUp{
+    background: url(windsor.jpg) no-repeat center center fixed;
+ 
+}

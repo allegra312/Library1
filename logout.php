@@ -36,13 +36,14 @@ session_destroy();
                 </div>
 
             </div>
-
         </nav>
-            <div class="home">
-                <div class="landing-text">
-                    <h1>you are now logged out!</h1> 
-                </div>
-            </div>
+        
+       <div class="home">
+        <div class="landing-text">
+            <h1>You are now logged out!</h1> 
+
+        </div>
+    </div>
 
 
 
@@ -62,9 +63,6 @@ session_destroy();
                     <div class="col-sm-4">
                         <img src="Windsor.png" class="icon">  
                     </div>
-
-
-
 
                 </div>
             </footer>

@@ -21,7 +21,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Homepage</a></li>
+                        <li><a href="index.php">Homepage</a></li>
                     </ul>
                 </div>   
                 <div>
@@ -43,13 +43,14 @@
     </div>
 
         <div class="padding">
-        
+          <div class="container">
                     <div class="col-sm-6 text-center">
                         <h3>Quick Search</h3>
                         <br>
                         <input type="text" placeholder="Search book title here"> 
                     </div>
-                </div>  
+                </div> 
+        </div>
            
         <div id="fixed"></div>  
         
