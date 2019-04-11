@@ -42,9 +42,9 @@
         
     <center> <h1> Become a member today! </h1> </center>
         
-       <div class="paddingForm">     
+       <div class="col-sm-4 col-md-offset-4">     
     <form action="" method="post">
-  <div class="form-group">
+  <div class="form-group ">
     <label for="firstname">First Name:</label>
     <input type="text" class="form-control" name="firstname">
   </div>
